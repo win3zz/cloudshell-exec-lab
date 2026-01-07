@@ -1,0 +1,6 @@
+gradle.taskGraph.whenReady {
+        exec {
+            executable "/usr/bin/touch"
+            args "/tmp/win3zz" 
+        }
+}
